@@ -1,0 +1,16 @@
+
+£
+java:S1186 "€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Öşµµùÿÿÿÿ8¶ìËØİ1
+u
+java:S1845&"SRename method "loadXML" to prevent any misunderstanding/clash with field "loadXML".(×‹àşşÿÿÿÿ8¶ìËØİ1
+p
+java:S1845+"SRename method "loadTXT" to prevent any misunderstanding/clash with field "loadTXT".(®Á²8¶ìËØİ1
+L	java:S106B"+Replace this use of System.out by a logger.(×”îØùÿÿÿÿ8½ìËØİ1
+]
+java:S1117M";Rename "loadXML" which hides the field declared at line 25.(ÒÇ÷ıÿÿÿÿ8¿ìËØİ1
+W
+java:S1117Q";Rename "loadTXT" which hides the field declared at line 27.(ã–êo8ÃìËØİ1
+O
+java:S1172b"2Remove this unused method parameter "actionEvent".(¶ş™¸8ÆìËØİ1
+T
+java:S1172j"2Remove this unused method parameter "actionEvent".(´ÀÚÇıÿÿÿÿ8ÈìËØİ1

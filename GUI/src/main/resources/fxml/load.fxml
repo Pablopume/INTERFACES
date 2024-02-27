@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<AnchorPane prefHeight="500.0" prefWidth="696.0" style="-fx-background-color: #FAD7A0;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.pantallas.load.LoadController">
+
+    <ImageView fx:id="imageView" fitHeight="500.0" fitWidth="696.0" />
+
+
+    <Label layoutX="177.0" layoutY="53.0" text="THE WIZARD'S NIGHTMARE" textFill="RED">
+        <font>
+            <Font name="System Bold" size="28.0" />
+        </font>
+        <effect>
+            <Glow />
+        </effect>
+    </Label>
+    <Button fx:id="loadXML" layoutX="206.0" layoutY="173.0" mnemonicParsing="false" onAction="#loadXML" style="-fx-background-color: #ABEBC6;" text="LOAD XML" textFill="#154360">
+        <font>
+            <Font name="System Bold" size="12.0" />
+        </font>
+        <effect>
+            <DropShadow />
+        </effect>
+    </Button>
+    <Button fx:id="loadTXT" layoutX="402.0" layoutY="173.0" mnemonicParsing="false" onAction="#loadTXT" style="-fx-background-color: #ABEBC6;" text="LOAD TXT" textFill="#154360">
+        <font>
+            <Font name="System Bold" size="12.0" />
+        </font>
+        <effect>
+            <DropShadow />
+        </effect>
+    </Button>
+    <Button layoutX="297.0" layoutY="250.0" mnemonicParsing="false" onAction="#newGame" style="-fx-background-color: #ABEBC6;" text="GO AHEAD" textFill="#154360">
+        <font>
+            <Font name="System Bold" size="16.0" />
+        </font>
+        <effect>
+            <DropShadow />
+        </effect>
+    </Button>
+
+    <Label fx:id="mensaje" alignment="CENTER" layoutX="24.0" layoutY="358.0" prefHeight="30.0" prefWidth="651.0" textAlignment="CENTER" textFill="#7D3C98" wrapText="true">
+        <font>
+            <Font size="20.0" />
+        </font>
+    </Label>
+</AnchorPane>
